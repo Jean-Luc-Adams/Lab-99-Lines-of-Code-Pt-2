@@ -3,26 +3,35 @@ body {
 }
 
 
-.bg-color {
-    background-color: rgb(66, 172, 214);
-    
-}
-
-h1 {
-    color: gold;
-    font-family: 'Gugi', cursive;
-}
-
-p, h3 {
-    font-family: 'Gugi', cursive;
-    color: rgb(94, 247, 81);
-}
-
-
-.text-center {
+* {
     text-align: center;
+}
+.button {
+    background-color: rgb(66, 159, 196);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 1em 2em;
+    width: 150px;
+}
+
+.lyrics {
+    font-family: 'Gugi', cursive;
+    color: rgb(66, 159, 196);
 }
 
 h3 {
-    text-transform: uppercase;
+    font-family: 'Gugi', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dashed;
 }
+
+
+
+
+
+
+
+
+
+
